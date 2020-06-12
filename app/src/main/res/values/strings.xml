@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">first</string>
+    <string name="ajvnrejvn">second</string>
+    <string name="h">Hello_there</string>
+
+    <string-array name="festivals">
+        <item>Diwali</item>
+        <item>Baisakhi</item>
+        <item>Ramzaan</item>
+        <item>christmas</item>
+    </string-array>
+    <string name="title_activity_opt">opt</string>
+
+</resources>

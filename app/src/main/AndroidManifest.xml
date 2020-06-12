@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.first">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/a"
+        android:label="qwerty"
+        android:roundIcon="@drawable/ic_shopping_cart_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cnt">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".opt"
+            android:label="@string/title_activity_opt"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".listt"></activity>
+        <activity android:name=".mailinte" />
+        <activity android:name=".radioo" />
+        <activity android:name=".order" />
+        <activity android:name=".webop">
+        </activity>
+        <activity android:name=".in2" />
+        <activity android:name=".in1" />
+        <activity android:name=".two" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
